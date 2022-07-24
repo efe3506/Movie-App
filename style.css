@@ -166,3 +166,36 @@ main {
   transform: translateY(0);
   cursor: pointer;
 }
+
+@media(max-width: 500px){
+  
+  #form{
+    width: 175px;
+  }
+  .search {
+    font-size: .75rem;
+    padding: 0.25rem .5rem;
+  }
+  .search::placeholder {
+    font-size: .75rem;
+  }
+
+  #form:hover .search-btn{
+    transform: translateY(0);
+  }
+  .search-btn, .btn{
+    font-size: .75rem;
+    padding: 0.25rem .5rem;
+  }
+
+  .search-btn{
+    transform: translateY(-200%);
+  }
+  .movie{
+    width: 350px;
+  }
+
+  .overview p{
+    font-size: medium;
+  }
+}
